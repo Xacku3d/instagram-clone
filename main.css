@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+body {
+    background: #fafafa;
+}
+
+.header {
+    background: #fff;
+    height: 52px;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    transition: .2s;
+}
+
+.header_content {
+    text-align:center;
+    width: 935px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#search {
+    width: 215px;
+    height: 25px;
+    background: #fafafa;
+    border: 1px solid rgba(0,0,0,.0975);
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.search {
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    padding-top: 5px;
+    justify-self: start;
+    align-self: center;
+}
+
+#instatext {
+    opacity: 1;
+    transition: .2s;
+    border-left: 1px solid #000;
+}
+
+.icons {
+    padding-top: 10px;
+    justify-self: end;
+    align-self: center;
+}
+
+#explore {
+    margin-right: 15px;
+}
+
+#like {
+    margin-right: 15px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 614px 293px;
+    grid-column-gap: 38px;
+    background: #fafafa;
+    margin: auto;
+    margin-top: 75px;
+    width: 935px;
+    padding-top: 60px;
+}
+
+.container .content .post {
+    border: 1px solid rgba(0,0,0,.0975);
+    height: 400px;
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+.container .content .post .post_header {
+    height: 60px;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+
+.container .sidebar {
+    position: sticky;
+    top: 76px;
+    height: 10px;
+}
+
+.account {
+    height: 50px;
+    margin-bottom: 12px;
+    display: grid;
+    grid-template-columns: 50px auto;
+}
+
+.photo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,.0975);
+    background: #fff;
+    overflow: hidden;
+}
+
+.name {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.name .fullname {
+    color: gray;
+}
+
+#photo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.stories {
+    height: 233px;
+    border: 1px solid rgba(0,0,0,.0975);
+    margin-top: 4px;
+    background: #fff;
+}
+
+.recommendations {
+    height: 197px;
+    border: 1px solid rgba(0,0,0,.0975);
+    margin: 12px 0px 5px 0px;
+    background: #fff;
+}
+
+.footer ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer .item {
+    display: inline;
+}
+
+.footer .item a {
+    text-decoration: none;
+    color: #c7c7c7;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+}
