@@ -1,4 +1,5 @@
 window.onload = () => {
+    //Scroll listener
     const header = document.querySelector('header');
     const instaText = document.querySelector('#instatext');
     window.onscroll = () => {
@@ -10,4 +11,18 @@ window.onload = () => {
             instaText.style.opacity = '1';
         }
     }
+
+    //Input listener
+    const inputLayout = document.querySelector('#search');
+    inputLayout.addEventListener('focus', ()=> {
+        inputLayout.style.background = '#fff';
+        inputLayout.style.textAlign = 'left';
+    })
+    document.body.addEventListener('click', (e) => {
+        if(e.target.id !== 'search') {
+            inputLayout.style.background = '#fafafa';
+            inputLayout.style.textAlign = 'center';
+        }
+    })
+
 }

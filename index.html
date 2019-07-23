@@ -15,16 +15,22 @@
     <header class="header">
         <div class="header_content">
             <div class="logo">
-                <img src="instalogo.JPG" alt="">
-                <img src="instatext.JPG" id='instatext' alt="">
+                <img src="./img/instalogo.png" id="instalogo" alt="">
+                <img src="./img/instatext.png" id='instatext' alt="">
             </div>
-            <div class="search">
-                <input type="text" id="search">
+            <div id="search_closed">
+                <input type="text" id="search" placeholder="Поиск">
             </div>
             <div class="icons">
-                <img src="explore.jpg" id="explore" alt="">
-                <img src="like.jpg" id="like" alt="">
-                <img src="acc.jpg" id="acc" alt="">
+                <a href="">
+                    <img src="./img/explore.png" id="explore" alt="">
+                </a>
+                <a href="">
+                    <img src="./img/like.png" id="like" alt="">
+                </a>
+                <a href="">
+                    <img src="./img/acc.png" id="acc" alt="">
+                </a>
             </div>
         </div>
     </header>
@@ -34,54 +40,185 @@
         <div class="content">
             <div class="post">
                 <div class="post_header">
-                    <div class="info">
-
+                    <div class="acc_photo">
+                        <a href="">
+                            <img src="https://images.unsplash.com/photo-1537815749002-de6a533c64db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=545&q=80"
+                                alt="" class="acc_photo">
+                        </a>
+                    </div>
+                    <div class="acc_name">
+                        <a href="">buba</a>
                     </div>
                     <div class="settings">
-
+                        <a href="">
+                            ...
+                        </a>
                     </div>
                 </div>
-                <div class="image">
-
+                <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                    alt="" class="post_image">
+                <div class="post_icons">
+                    <a href="" id="post_icons">
+                        <img src="./img/post_icons.png" alt="">
+                    </a>
+                    <a href="" id="favorite">
+                        <img src="./img/favorite.png" alt="">
+                    </a>
+                </div>
+                <div class="post_footer">
+                    <div class="likes">
+                        <a href="">
+                            <b> 2 021 отметок "Нравится"</b>
+                        </a>
+                    </div>
+                    <div class="post_text">
+                        <b>buba </b> togaf
+                        <br>
+                        <a href="" class="gray">Посмотреть все комментарии(228)</a>
+                    </div>
+                    <div class="comments">
+                        <div class="comment">
+                            <p>
+                                <b>lexafalev </b>На забив!!</p>
+                            <a href="" class="comment_like">
+                                <img src="./img/comment_like.png" alt="">
+                            </a>
+                        </div>
+                        <div class="comment">
+                            <p>
+                                <b>mixa4len </b>C#!!!</p>
+                            <a href="" class="comment_like">
+                                <img src="./img/comment_like.png" alt="">
+                            </a>
+                        </div>
+                        <p class="time">40 МИНУТ НАЗАД</p>
+                    </div>
+                </div>
+                <div class="add_comment">
+                    <textarea id="comment_area" placeholder="Добавьте комментарий..."></textarea>
+                    <button id="submit_comment">Опубликовать</button>
                 </div>
             </div>
             <div class="post">
                 <div class="post_header">
-                    <div class="info">
-
+                    <div class="acc_photo">
+                        <a href="">
+                            <img src="https://images.unsplash.com/photo-1537815749002-de6a533c64db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=545&q=80"
+                                alt="" class="acc_photo">
+                        </a>
+                    </div>
+                    <div class="acc_name">
+                        <a href="">buba</a>
                     </div>
                     <div class="settings">
-
+                        <a href="">
+                            ...
+                        </a>
                     </div>
                 </div>
-                <div class="image">
-
+                <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                    alt="" class="post_image">
+                <div class="post_icons">
+                    <a href="" id="post_icons">
+                        <img src="./img/post_icons.png" alt="">
+                    </a>
+                    <a href="" id="favorite">
+                        <img src="./img/favorite.png" alt="">
+                    </a>
+                </div>
+                <div class="post_footer">
+                    <div class="likes">
+                        <a href="">
+                            <b> 2 021 отметок "Нравится"</b>
+                        </a>
+                    </div>
+                    <div class="post_text">
+                        <b>buba </b> togaf
+                        <br>
+                        <a href="" class="gray">Посмотреть все комментарии(228)</a>
+                    </div>
+                    <div class="comments">
+                        <div class="comment">
+                            <p>
+                                <b>lexafalev </b>На забив!!</p>
+                            <a href="" class="comment_like">
+                                <img src="./img/comment_like.png" alt="">
+                            </a>
+                        </div>
+                        <div class="comment">
+                            <p>
+                                <b>mixa4len </b>C#!!!</p>
+                            <a href="" class="comment_like">
+                                <img src="./img/comment_like.png" alt="">
+                            </a>
+                        </div>
+                        <p class="time">40 МИНУТ НАЗАД</p>
+                    </div>
+                </div>
+                <div class="add_comment">
+                    <textarea id="comment_area" placeholder="Добавьте комментарий..."></textarea>
+                    <button id="submit_comment">Опубликовать</button>
                 </div>
             </div>
             <div class="post">
                 <div class="post_header">
-                    <div class="info">
-
+                    <div class="acc_photo">
+                        <a href="">
+                            <img src="https://images.unsplash.com/photo-1537815749002-de6a533c64db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=545&q=80"
+                                alt="" class="acc_photo">
+                        </a>
+                    </div>
+                    <div class="acc_name">
+                        <a href="">buba</a>
                     </div>
                     <div class="settings">
-
+                        <a href="">
+                            ...
+                        </a>
                     </div>
                 </div>
-                <div class="image">
-
+                <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                    alt="" class="post_image">
+                <div class="post_icons">
+                    <a href="" id="post_icons">
+                        <img src="./img/post_icons.png" alt="">
+                    </a>
+                    <a href="" id="favorite">
+                        <img src="./img/favorite.png" alt="">
+                    </a>
                 </div>
-            </div>
-            <div class="post">
-                <div class="post_header">
-                    <div class="info">
-
+                <div class="post_footer">
+                    <div class="likes">
+                        <a href="">
+                            <b> 2 021 отметок "Нравится"</b>
+                        </a>
                     </div>
-                    <div class="settings">
-
+                    <div class="post_text">
+                        <b>buba </b> togaf
+                        <br>
+                        <a href="" class="gray">Посмотреть все комментарии(228)</a>
+                    </div>
+                    <div class="comments">
+                        <div class="comment">
+                            <p>
+                                <b>lexafalev </b>На забив!!</p>
+                            <a href="" class="comment_like">
+                                <img src="./img/comment_like.png" alt="">
+                            </a>
+                        </div>
+                        <div class="comment">
+                            <p>
+                                <b>mixa4len </b>C#!!!</p>
+                            <a href="" class="comment_like">
+                                <img src="./img/comment_like.png" alt="">
+                            </a>
+                        </div>
+                        <p class="time">40 МИНУТ НАЗАД</p>
                     </div>
                 </div>
-                <div class="image">
-
+                <div class="add_comment">
+                    <textarea id="comment_area" placeholder="Добавьте комментарий..."></textarea>
+                    <button id="submit_comment">Опубликовать</button>
                 </div>
             </div>
         </div>
@@ -111,17 +248,39 @@
 
             <div class="footer">
                 <ul>
-                    <li class="item"><a href="#">О Нас</a></li>
-                    <li class="item"><a href="#">Поддержка</a></li>
-                    <li class="item"><a href="#">Пресса</a></li>
-                    <li class="item"><a href="#">API</a></li>
-                    <li class="item"><a href="#">Вакансии</a></li>
-                    <li class="item"><a href="#">Конфиденциальность</a></li>
-                    <li class="item"><a href="#">Условия</a></li>
-                    <li class="item"><a href="#">Директория</a></li>
-                    <li class="item"><a href="#">Профили</a></li>
-                    <li class="item"><a href="#">Хэштеги</a></li>
-                    <li class="item"><a href="#">Язык</a></li>
+                    <li class="item">
+                        <a href="#">О Нас</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">Поддержка</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">Пресса</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">API</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">Вакансии</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">Конфиденциальность</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">Условия</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">Директория</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">Профили</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">Хэштеги</a>
+                    </li>
+                    <li class="item">
+                        <a href="#">Язык</a>
+                    </li>
                 </ul>
             </div>
         </div>
