@@ -31,16 +31,18 @@ MAIN HEADER
     border-bottom: 1px solid rgba(0,0,0,.0975);
     position: fixed;
     top: 0px;
-    width: 100%;
     transition: .2s;
+    width: 100%;
 }
 
 .header_content {
     text-align:center;
-    width: 935px;
     margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /*display: grid;
+    grid-template-columns: 200px auto 200px;*/
+    display: flex;
+    flex-direction: row;
+    width: 80%;
 }
 
 #search {
@@ -54,11 +56,13 @@ MAIN HEADER
 }
 
 #search_closed {
-    justify-self: center;
+    min-width: 230px;
     align-self: center;
+    margin: auto;
 }
 
 .logo {
+    min-width: 200px;
     padding-top: 5px;
     justify-self: start;
     align-self: center;
@@ -75,17 +79,19 @@ MAIN HEADER
 }
 
 .icons {
+    min-width: 200px;
     padding-top: 10px;
     justify-self: end;
     align-self: center;
+    padding-right: 30px;
 }
 
 #explore {
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 #like {
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 /* 
@@ -286,8 +292,17 @@ MAIN HEADER
     padding-top: 5px;
 }
 
+.name b {
+    color: #262626;
+}
+
 .name .fullname {
     color: gray;
+    font-size: 12px;
+}
+
+.name .fullname a{
+    color: inherit;
 }
 
 #photo {
@@ -300,8 +315,83 @@ MAIN HEADER
 .stories {
     height: 233px;
     border: 1px solid rgba(0,0,0,.0975);
-    margin-top: 4px;
+    margin: 0;
     background: #fff;
+}
+
+.stories_header {
+    height: 19px;
+    margin: 10px 0px 0px;
+    padding: 4px 16px;
+}
+
+.stories b {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.stories_header a {
+    color: #262626;
+    font-weight: 600;
+    font-size: 12px;
+    float: right;
+}
+
+.stories_list {
+    margin-top: 8px;
+}
+
+.stories_container {
+    margin-left: 16px;
+    height: 188px;
+    overflow: hidden auto;
+}
+
+.stories_container .story {
+    height: 52px;
+    display: flex;
+}
+
+.stories .photo{
+    height: 46px;
+    width: 46px;
+    overflow: hidden;
+    margin: 0;
+    border: 0px;
+}
+
+.story_wrapper {
+    display: block;
+    content: "";
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 0px;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    padding: 2px;
+}
+
+.story #photo {
+    border: 3px solid white;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.story_author {
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.story_author p{
+    color: #999999;
+    font-size: 10px;
+}
+
+.story_author b{
+    color: #262626;
 }
 
 .recommendations {
