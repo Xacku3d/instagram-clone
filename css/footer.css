@@ -1,0 +1,28 @@
+/* 
+==========
+  FOOTER
+==========
+*/
+
+.footer ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer .item {
+    display: inline;
+}
+
+.footer .item a {
+    text-decoration: none;
+    color: #c7c7c7;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+}
+
+.footer .item:not(:last-of-type)::after {
+    color: #c7c7c7;
+    content: "\00B7";
+    margin: 0.1em;
+}

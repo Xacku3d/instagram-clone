@@ -13,16 +13,30 @@ window.onload = () => {
     }
 
     //Input listener
-    const inputLayout = document.querySelector('#search');
-    inputLayout.addEventListener('focus', ()=> {
-        inputLayout.style.background = '#fff';
-        inputLayout.style.textAlign = 'left';
-    })
-    document.body.addEventListener('click', (e) => {
-        if(e.target.id !== 'search') {
-            inputLayout.style.background = '#fafafa';
-            inputLayout.style.textAlign = 'center';
-        }
-    })
+    const searchBox = document.getElementById('search_box');
+    const searchContainer = document.getElementById('search_container');
+    const searchInput = document.getElementById('search');
 
+    searchContainer.onclick = () => {
+        searchBox.style.background = "#fff";
+        searchContainer.style = "padding-left: 10px;";
+        searchInput.style = 'width: 160px;';
+        searchInput.focus();
+    }
+
+    //Outside click listener
+    document.body.onclick = (event) => {
+        if(
+            !(
+                (event.target.id == "search_container") || 
+                (event.target.id == "search") ||
+                (event.target.id == "search_img") ||
+                (event.target.id == "search_box")
+            )
+        ) {
+            searchBox.style.background = "#fafafa";
+            searchContainer.style = "padding-left: 75px;";
+            searchInput.style = 'width: 50px;';
+        }
+    }
 }

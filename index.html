@@ -6,7 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Instagram</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/header.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/content.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/account.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/stories.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/recommendations.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/footer.css" />
     <script src="main.js"></script>
 </head>
 
@@ -18,8 +24,11 @@
                 <img src="./img/instalogo.png" id="instalogo" alt="">
                 <img src="./img/instatext.png" id='instatext' alt="">
             </div>
-            <div id="search_closed">
-                <input type="text" id="search" placeholder="Поиск">
+            <div id="search_box">
+                <div id="search_container">
+                    <img id="search_img" src="./img/search.png" alt="">
+                    <input type="text" id="search" placeholder="Поиск">
+                </div>
             </div>
             <div class="icons">
                 <a href="">
@@ -226,7 +235,7 @@
         <div class="sidebar">
             <div class="account">
                 <div class="photo">
-                    <img id="photo" src="http://ichef.bbci.co.uk/news/976/cpsprodpb/FDF6/production/_87241056_gettyimages-hideo1.jpg" alt="">
+                    <a href=""><img id="photo" src="http://ichef.bbci.co.uk/news/976/cpsprodpb/FDF6/production/_87241056_gettyimages-hideo1.jpg" alt=""></a>
                 </div>
                 <div class="name">
                     <a href="">
@@ -361,7 +370,57 @@
             </div>
 
             <div class="recommendations">
-
+                <div class="recommendations_header">
+                    <b>Рекомендации для вас</b>
+                    <a href="">Все</a>
+                </div>
+                <div class="recommendations_list">
+                    <div class="recommendations_user">
+                        <a href="" class="photo">
+                            <div class="story_wrapper">
+                                <img id="photo" src="https://images.unsplash.com/flagged/photo-1551337192-c7893e023548?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=547&q=80"
+                                    alt="">
+                            </div>
+                        </a>
+                        <a href="" class="story_author">
+                            <b>random.user</b>
+                            <p>
+                                ЧАС НАЗАД
+                            </p>
+                        </a>
+                        <a href="" class="subscribe">Подписаться</a>
+                    </div>
+                    <div class="recommendations_user">
+                        <a href="" class="photo">
+                            <div class="story_wrapper">
+                                <img id="photo" src="https://images.unsplash.com/flagged/photo-1551337192-c7893e023548?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=547&q=80"
+                                    alt="">
+                            </div>
+                        </a>
+                        <a href="" class="story_author">
+                            <b>random.user</b>
+                            <p>
+                                ЧАС НАЗАД
+                            </p>
+                        </a>
+                        <a href="" class="subscribe">Подписаться</a>
+                    </div>
+                    <div class="recommendations_user">
+                        <a href="" class="photo">
+                            <div class="story_wrapper">
+                                <img id="photo" src="https://images.unsplash.com/flagged/photo-1551337192-c7893e023548?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=547&q=80"
+                                    alt="">
+                            </div>
+                        </a>
+                        <a href="" class="story_author">
+                            <b>random.user</b>
+                            <p>
+                                ЧАС НАЗАД
+                            </p>
+                        </a>
+                        <a href="" class="subscribe">Подписаться</a>
+                    </div>
+                </div>
             </div>
 
             <div class="footer">

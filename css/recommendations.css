@@ -1,0 +1,71 @@
+/* 
+==================
+  RECOMMENDATIONS
+==================
+*/
+
+.recommendations {
+    height: 197px;
+    border: 1px solid rgba(0,0,0,.0975);
+    border-radius: 3px;
+    margin: 12px 0px 5px 0px;
+    background: #fff;
+}
+
+.recommendations_header {
+        height: 19px;
+        margin: 10px 0px 0px;
+        padding: 4px 16px;
+}
+
+.recommendations_header b {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.recommendations_header a {
+    color: #262626;
+    font-weight: 600;
+    font-size: 12px;
+    float: right;
+}
+
+.recommendations_list {
+    margin-top: 4px;
+    margin-left: 16px;
+}
+
+.recommendations_user{
+    height: 52px;
+    display: flex;
+}
+
+.recommendations_user .photo{
+    height: 46px;
+    width: 46px;
+    overflow: hidden;
+    margin: 0;
+    border: 0px;
+}
+
+.recommendations_user #photo {
+    border: 3px solid white;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.story_author b {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.subscribe {
+    color: #3897f0;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 55px;
+    margin-top: 10px;
+}

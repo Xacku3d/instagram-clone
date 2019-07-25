@@ -1,0 +1,58 @@
+/* 
+===========
+  SIDEBAR
+===========
+*/
+
+.container .sidebar {
+    position: sticky;
+    top: 76px;
+    height: 10px;
+}
+
+/* 
+===========
+  ACCOUNT
+===========
+*/
+
+.account {
+    height: 50px;
+    margin-bottom: 12px;
+    display: grid;
+    grid-template-columns: 50px auto;
+}
+
+.photo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,.0975);
+    background: #fff;
+    overflow: hidden;
+}
+
+.name {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.name b {
+    color: #262626;
+}
+
+.name .fullname {
+    color: gray;
+    font-size: 12px;
+}
+
+.name .fullname a{
+    color: inherit;
+}
+
+#photo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
