@@ -8,6 +8,7 @@
     position: sticky;
     top: 76px;
     height: 10px;
+    grid-area: s;
 }
 
 /* 

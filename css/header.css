@@ -32,6 +32,7 @@ MAIN HEADER
     text-align: center;
     align-self: center;
     margin: auto;
+    min-width: 215px;
 }
 
 #search_container {

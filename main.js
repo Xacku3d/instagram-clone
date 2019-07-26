@@ -25,7 +25,7 @@ window.onload = () => {
     }
 
     //Outside click listener
-    document.body.onclick = (event) => {
+    document.body.addEventListener('click',(event) => {
         if(
             !(
                 (event.target.id == "search_container") || 
@@ -38,5 +38,5 @@ window.onload = () => {
             searchContainer.style = "padding-left: 75px;";
             searchInput.style = 'width: 50px;';
         }
-    }
+    });
 }
