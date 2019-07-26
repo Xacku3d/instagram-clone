@@ -28,6 +28,10 @@
         width: 100%;
     }
 
+    #comment_area {
+        width: 100%;
+    }
+
     .account {
         display: none;
     }
