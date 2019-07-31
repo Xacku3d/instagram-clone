@@ -1,7 +1,7 @@
 window.onload = () => {
     //Scroll listener
     const header = document.querySelector('header');
-    const instaText = document.querySelector('#instatext');
+    const instaText = document.querySelector('#insta_text');
     window.onscroll = () => {
         if (document.body.scrollTop > 35 || document.documentElement.scrollTop > 35) {
             header.style.padding = `0px 20px`;

@@ -161,16 +161,15 @@
 
 @media screen and (max-width: 490px) {
     .logo {
-        min-width: 156px;
         min-height: 40px;
         flex: 1;
         margin-right: 3%; 
         justify-content: flex-start;
     }
     .icons {
-        min-width: 156px;
         min-height: 40px;
         flex: 1;
         justify-content: flex-end;
     }
+
 }

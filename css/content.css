@@ -81,17 +81,57 @@
     grid-template-columns: 1fr 1fr;
 }
 
-#post_icons {
+.main_icons {
+    display: flex;
     padding-left: 16px;
     justify-self: start;
     align-self: center;
     padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+#post_like {
+    margin-right: 20px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_glyphs_33fe29edfd27.png/33fe29edfd27.png);
+    background-position-x: -290px;
+    background-position-y: -248px;
+}
+
+#post_comment {
+    margin-right: 20px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_glyphs_33fe29edfd27.png/33fe29edfd27.png);
+    background-position-x: -179px;
+    background-position-y: -200px;
+}
+
+#post_share {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_glyphs_33fe29edfd27.png/33fe29edfd27.png);
+    background-position-x: -260px;
+    background-position-y: -326px;
 }
 
 #favorite {
     padding-right: 16px;
     justify-self: end;
     align-self: center;
+}
+
+#post_favorite {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_glyphs_33fe29edfd27.png/33fe29edfd27.png);
+    background-position-x: -130px;
+    background-position-y: -326px;
 }
 
 .post_footer b {
@@ -121,10 +161,13 @@
     grid-template-columns: auto 12px;
 }
 
-.comment .comment_like {
-    justify-self: end;
-    align-self: center;
-    padding-right: 5px;
+#comment_like {
+    height: 11px;
+    width: 12px;
+    display: block;
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_glyphs_33fe29edfd27.png/33fe29edfd27.png);
+    background-position-x: -273px;
+    background-position-y: -128px;
 }
 
 .comments .time {
