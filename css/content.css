@@ -95,9 +95,10 @@
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_glyphs_33fe29edfd27.png/33fe29edfd27.png);
-    background-position-x: -290px;
-    background-position-y: -248px;
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_glyphs_2x_89e8abda69de.png/89e8abda69de.png);
+    background-position-x: 0px;
+    background-position-y: -295px;
+    background-size: 355px 344px;
 }
 
 #post_comment {
@@ -105,18 +106,20 @@
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_glyphs_33fe29edfd27.png/33fe29edfd27.png);
-    background-position-x: -179px;
-    background-position-y: -200px;
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_glyphs_2x_89e8abda69de.png/89e8abda69de.png);
+    background-position-x: -142px;
+    background-position-y: -97px;
+    background-size: 355px 344px
 }
 
 #post_share {
     display: block;
     width: 24px;
     height: 24px;
-    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_glyphs_33fe29edfd27.png/33fe29edfd27.png);
-    background-position-x: -260px;
-    background-position-y: -326px;
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_glyphs_2x_89e8abda69de.png/89e8abda69de.png);
+    background-position-x: -225px;
+    background-position-y: -320px;
+    background-size: 355px 344px;
 }
 
 #favorite {
